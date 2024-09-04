@@ -1,0 +1,63 @@
+**VALID** -- ethna@gmail.com
+
+**VALID** -- susmi@gmail.com
+
+**VALID** -- susmi_1@gmail.com
+
+INVALID -- .ethna@gmail.com
+
+INVALID -- @susmi@gmail.com
+
+INVALID -- ethna@gmail,com
+
+INVALID -- ethna@gmail.con
+
+**VALID** -- email@example.com
+
+**VALID** -- firstname.lastname@example.com
+
+**VALID** -- email@subdomain.example.com
+
+INVALID -- firstname+lastname@example.com
+
+**VALID** -- email@123.123.123.123
+
+INVALID -- email@[123.123.123.123]
+
+INVALID -- ethna@123.123.123
+
+INVALID -- susmi@[123.123.123.123
+
+**VALID** -- ethna@192.27.230.255
+
+INVALID -- ethna@193.23.0.256
+
+**VALID** -- email@example-one.com
+
+INVALID -- plainaddress
+
+INVALID -- #@%^%#$@#$@#.com
+
+INVALID -- @example.com
+
+INVALID -- Joe Smith <email@example.com>
+
+INVALID -- email.example.com
+
+INVALID -- email@example@example.com
+
+INVALID -- .email@example.com
+
+**VALID** -- email.@example.com
+
+**VALID** -- email..email@example.com
+
+INVALID -- email@example
+
+**VALID** -- email@-example.com
+
+**VALID** -- email@example.web
+
+INVALID -- email@111.222.333.44444
+
+**VALID** -- email@example..com
